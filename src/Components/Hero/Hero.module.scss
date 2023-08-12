@@ -17,21 +17,22 @@
     padding-bottom: 0;
     opacity: 1;
     padding: 5vw;
+    color: white;
 }
-.hero-top-main{
+.heroMain{
     position: absolute;
     top: 35%;
     left: 10%;
 }
 
-.hero-top-main h1{
+.heroMain h1{
     font-family: 'League Gothic', sans-serif;
-    font-size: 12rem;
+    font-size: 3rem;
     letter-spacing: 5px;
     padding-bottom: 0.8rem;
 }
 
-.hero-top-main h2{
+.heroMain h2{
     font-family: 'Rubik', sans-serif;
     font-size: 1.3rem;
     font-weight: 900;
@@ -39,43 +40,43 @@
 }
 @media only screen and (max-height: 500px){
 
-    .hero-top-main{
+    .heroMain{
         position: absolute;
         top: 20% !important;
         left: 10%;
     }
 
-    .hero-top-main h1{
+    .heroMain h1{
         font-size: 8rem !important;
     }
     
-    .hero-top-main h2{
+    .heroMain h2{
         display: none;
     }
  }
 
  @media only screen and (max-height:265px){
-    .hero-top-main h1{
+    .heroMain h1{
         font-size: 5rem !important;
     }
  }
 
  @media only screen and (max-width:1200px) and (min-width:992px){
-     .hero-top-main{
+     .heroMain{
          left: 3%;
      }
  }
  
  @media only screen and (max-width:1100px) and (min-width:662px){
-     .hero-top-main{
+     .heroMain{
          left: 5%;
      }
  
-     .hero-top-main h1{
-        font-size: 15vw;
+     .heroMain h1{
+        font-size: 5vw;
      }
 
-     .hero-top-main h2{
+     .heroMain h2{
             font-size: 3vw;
      }
 }
@@ -84,16 +85,16 @@
         background-attachment: scroll;
      }
      
-     .hero-top-main{
+     .heroMain{
          top: 29%;
          left: 5%;
      }
  
-     .hero-top-main h1{
-         font-size: 7rem;
+     .heroMain h1{
+         font-size: 2rem;
      }
  
-     .hero-top-main h2{
+     .heroMain h2{
          font-size: 1.1rem;
          padding-right: 1rem;
      }
@@ -101,7 +102,7 @@
  }
  
  @media only screen and (max-width:320px){
-     .hero-top-main h1{
+     .heroMain h1{
          font-size: 6rem;
      }
  }
