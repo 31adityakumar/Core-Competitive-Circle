@@ -6,8 +6,8 @@ import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+      <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} key="route-home-screen" />
           <Route exact path="/team" element={<Team />} />
