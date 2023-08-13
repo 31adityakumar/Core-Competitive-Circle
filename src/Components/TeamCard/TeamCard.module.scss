@@ -12,7 +12,8 @@
   justify-content: center;
 }
 .teamCard {
-  background-color: var(--c4-black-1-100);
+  background-color: white;
+  box-shadow: #b0aaaa;
   height: 25rem;
   width: 20rem;
   left: 1.25rem;
@@ -25,16 +26,16 @@
   transition: all 0.2s ease-in;
 }
 .teamCard:hover {
-  background-color: rgb(78, 78, 252);
+  background-color: #ff4757;
 }
 
-.heading {
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  color: white;
-  font-family: Elianto, sans-serif;
-}
+// .teamSection h1 {
+//   width: 100%;
+//   margin: 0;
+//   text-align: center;
+//   color: #ff4757;
+//   font-family: Elianto, sans-serif;
+// }
 
 .cardImages {
   display: flex;
@@ -58,15 +59,19 @@
   font-weight: 700;
   line-height: 1.5rem;
   letter-spacing: 0em;
-  color: var(--c4-white-1-100);
+  color: #ff4757;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+}
+.teamCard:hover .teamTitle{
+  color: white;
 }
 .core_mem_text {
   display: flex;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
+  // visibility: hidden;
+  color: #ff4757;
   transition: all 0.2s ease-in;
 }
 .teamCard:hover .core_mem_text {
