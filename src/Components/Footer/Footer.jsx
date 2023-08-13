@@ -7,11 +7,11 @@ const Footer = () => {
             <div className={styles.footer}>
                 <div className={styles.logoimage}><img src={logo} alt="Logo" className={styles.logo} /></div>
                 <div className={styles.contacts}>
-                    <div className={styles.email}>Email us at</div>
-                    <div className={styles.id}>c4core.nits@gmail.com</div>
-                    <div className={styles.contact}>Contact Us</div>
+                    <div className={styles.email}>Email us at
+                    <div className={styles.id}>c4core.nits@gmail.com</div></div>
+                    <div className={styles.contact}>Contact Us
                     <div className={styles.id}>Aditya Kumar - 9999999999</div>
-                    <div className={styles.id}>Aditya Kumar - 9999999999</div>
+                    <div className={styles.id}>Aditya Kumar - 9999999999</div></div>
                     
                 </div>
                 <div className={styles.socialmedia}>
