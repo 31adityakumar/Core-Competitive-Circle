@@ -1,0 +1,108 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-image: url("https://res.cloudinary.com/dnvhl9pru/image/upload/v1691854021/unsplash_p74ndnYWRY4_fwnfj9.png");
+    height: 100vh;
+    width: 100vw;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: center;
+    padding-bottom: 0;
+    opacity: 1;
+    padding: 5vw;
+    color: white;
+}
+.heroMain{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.heroMain h1{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding-bottom: 0.8rem;
+}
+
+.heroMain h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    letter-spacing: .7px;
+}
+@media only screen and (max-height: 500px){
+
+    .heroMain{
+        position: absolute;
+        top: 20% !important;
+        left: 10%;
+    }
+
+    .heroMain h1{
+        font-size: 8rem !important;
+    }
+    
+    .heroMain h2{
+        display: none;
+    }
+ }
+
+ @media only screen and (max-height:265px){
+    .heroMain h1{
+        font-size: 5rem !important;
+    }
+ }
+
+ @media only screen and (max-width:1200px) and (min-width:992px){
+     .heroMain{
+         left: 3%;
+     }
+ }
+ 
+ @media only screen and (max-width:1100px) and (min-width:662px){
+     .heroMain{
+         left: 5%;
+     }
+ 
+     .heroMain h1{
+        font-size: 5vw;
+     }
+
+     .heroMain h2{
+            font-size: 3vw;
+     }
+}
+@media only screen and (max-width:660px){
+    .hero-top{
+        background-attachment: scroll;
+     }
+     
+     .heroMain{
+         top: 29%;
+         left: 5%;
+     }
+ 
+     .heroMain h1{
+         font-size: 2rem;
+     }
+ 
+     .heroMain h2{
+         font-size: 1.1rem;
+         padding-right: 1rem;
+     }
+ 
+ }
+ 
+ @media only screen and (max-width:320px){
+     .heroMain h1{
+         font-size: 6rem;
+     }
+ }

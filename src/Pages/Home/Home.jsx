@@ -1,10 +1,10 @@
-import Footer from '../../Components/Footer/Footer';
-import Navbar from '../../Components/Navbar/Navbar';
+import Hero from '../../Components/Hero/Hero';
 import './Home.module.scss'
+import Footer from '../../Components/Footer/Footer'
 const Home = () => {
     return(
         <>
-            
+            <Hero/>
             <Footer/>
         </>
     )
