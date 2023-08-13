@@ -5,7 +5,7 @@
   color: #00067f;
 
   font-family: "Poppins", sans-serif, bold;
-  font-size: 10vh;
+  font-size: 9vh;
   font-weight: 700;
   margin-top: 3.5rem;
   text-align: center;
@@ -36,13 +36,12 @@ dept1-detail {
   display: flex;
   flex-direction: row;
   float: right;
-  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
 
 .dept1-detail .dept-content {
   padding: 0 1rem;
-  margin-top: -0.3125rem;
+  margin-top: 1.125rem;
 }
 
 .dept-name {
@@ -58,13 +57,12 @@ dept2-detail {
   display: flex;
   flex-direction: row;
   float: right;
-  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
 
-.dept2-detail p {
+.dept2-detail .dept-content {
   padding: 0 1rem;
-  margin-top: -0.3125rem;
+  margin-top: 1.125rem;
 }
 
 .dept-img img {
@@ -72,7 +70,7 @@ dept2-detail {
   height: 18.56rem;
   border-radius: 1rem;
   padding: 0.17rem;
-  // margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .read-more-button {
@@ -113,6 +111,7 @@ dept2-detail {
   margin: 1rem 0;
   font-family: "Poppins", sans-serif, bold;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 701px) and (max-width: 960px) {
@@ -120,7 +119,7 @@ dept2-detail {
     color: #00067f;
 
     font-family: "Poppins", sans-serif, bold;
-    font-size: 9vh;
+    font-size: 8vh;
     font-weight: 700;
     margin-top: 3.5rem;
     text-align: center;
@@ -155,9 +154,9 @@ dept2-detail {
   }
 
   .dept1-detail .dept-content {
+    padding: 0 1rem;
+    margin-top: 1.125rem;
     font-size: 1rem;
-    margin: auto;
-    padding: auto;
   }
   .dept-name {
     text-align: center;
@@ -172,14 +171,13 @@ dept2-detail {
     display: flex;
     flex-direction: row;
     float: right;
-    font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
   }
 
-  .dept1-detail .dept-content {
-    font-size: 1rem;
-    margin: auto;
-    padding: auto;
+  .dept2-detail .dept-content {
+     padding: 0 1rem;
+     margin-top: 1.125rem;
+     font-size: 1rem;
   }
 
   .dept-img img {
@@ -187,7 +185,7 @@ dept2-detail {
     height: 17.56rem;
     border-radius: 1rem;
     padding: 0.17rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   .read-more-button {
@@ -197,7 +195,7 @@ dept2-detail {
     color: white;
     cursor: pointer;
     transition: color 0.3s ease;
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .read-more-button:hover {
@@ -226,6 +224,7 @@ dept2-detail {
     margin: 1rem 0;
     font-family: "Poppins", sans-serif, bold;
     font-size: 0.8rem;
+    font-weight: 600;
   }
 }
 
@@ -269,9 +268,9 @@ dept2-detail {
   }
 
   .dept1-detail .dept-content {
-    font-size: 1rem;
-    margin: auto;
-    padding: auto;
+     padding: 0 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
   }
   .dept-name {
     text-align: center;
@@ -289,10 +288,10 @@ dept2-detail {
     font-family: "Poppins", sans-serif;
   }
 
-  .dept1-detail .dept-content {
-    font-size: 0.8rem;
-    margin: auto;
-    padding: auto;
+  .dept2-detail .dept-content {
+    padding: 0 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
   }
 
   .dept-img img {
@@ -340,109 +339,14 @@ dept2-detail {
   .dept-contact {
     margin: 1rem 0;
     font-family: "Poppins", sans-serif, bold;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 600;
   }
 }
 
 /* Styles for small screens (e.g., smartphones) */
-// @media only screen and (max-width: 480px) {
-//   .dept-header {
-//     color: #00067f;
 
-//     font-family: "Poppins", sans-serif, bold;
-//     font-size: 4vh;
-//     font-weight: 700;
-//     margin-top: 3.5rem;
-//     text-align: center;
-//   }
-
-//   .first-dept {
-//     margin: 1rem 4.18rem;
-//     border: 0.0625rem solid black;
-//     border-radius: 0.5rem;
-//   }
-
-//   dept1-detail {
-//     font-size: 0.8rem;
-//     font-family: "Poppins", sans-serif;
-//   }
-
-//   .dept1-detail .dept-content {
-//     font-size: 12px;
-//     margin: auto;
-//     padding: auto;
-//   }
-
-//   .dept-name {
-//     color: #00067f;
-//     font-family: "Poppins", sans-serif, bold;
-//     text-align: center;
-//     font-size: 1.3rem;
-//     font-weight: 700;
-//     margin: 0.5rem;
-//   }
-
-//   .second-dept {
-//     margin: 1rem 4.18rem;
-//     border: 0.0625rem solid black;
-//     border-radius: 0.5rem;
-//   }
-
-//   dept2-detail {
-//     font-size: 0.8rem;
-//     font-family: "Poppins", sans-serif;
-//   }
-
-//   .dept2-detail .dept-content {
-//     font-size: 12px;
-//     margin: auto;
-//     padding: auto;
-//   }
-
-//   .dept-img img {
-//     display: none;
-//   }
-
- 
-
-//   .read-more-button {
-//     //   background-color: #0275d5;
-
-//     background-color: #00067f;
-//     border: none;
-//     margin-left: 0.5rem;
-//     border-radius: 5px;
-//     color: white;
-//     cursor: pointer;
-//     transition: color 0.3s ease;
-//     font-size: 8px;
-//   }
-
-//   .read-more-button:hover {
-//     color: white;
-//     background-color: blue;
-//   }
-
-//   .read-less-button {
-//     background-color: #00067f;
-//     border: none;
-//     border-radius: 5px;
-//     padding: 4px 8px;
-//     color: white;
-//     cursor: pointer;
-//     font-size: 8px;
-//     margin-left: -0.2rem;
-//     transition: color 0.3s ease;
-//   }
-
-//   .read-less-button:hover {
-//     color: white;
-//     background-color: rgb(62, 62, 181);
-//   }
-// }
-
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .dept-header {
     color: #00067f;
 
@@ -454,7 +358,7 @@ dept2-detail {
   }
 
   .first-dept {
-    margin: 1rem 4.18rem;
+    margin: 1rem 3.18rem;
     border: 0.0625rem solid black;
     border-radius: 0.5rem;
   }
@@ -462,27 +366,25 @@ dept2-detail {
   dept1-detail {
     font-size: 0.8rem;
     font-family: "Poppins", sans-serif;
-    display: none;
   }
 
   .dept1-detail .dept-content {
-    font-size: 12px;
-    margin: auto;
-    padding: auto;
-
+    padding: 0  1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
   }
 
   .dept-name {
     color: #00067f;
     font-family: "Poppins", sans-serif, bold;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 700;
     margin: 0.5rem;
   }
 
   .second-dept {
-    margin: 1rem 4.18rem;
+    margin: 1rem 3.18rem;
     border: 0.0625rem solid black;
     border-radius: 0.5rem;
   }
@@ -493,9 +395,9 @@ dept2-detail {
   }
 
   .dept2-detail .dept-content {
-    font-size: 12px;
-    margin: auto;
-    padding: auto;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
   }
 
   .dept-img img {
@@ -538,4 +440,15 @@ dept2-detail {
     color: white;
     background-color: rgb(62, 62, 181);
   }
+
+  .dept-contact {
+    margin: 1rem 0;
+    font-family: "Poppins", sans-serif, bold;
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+
+
 }
+
+

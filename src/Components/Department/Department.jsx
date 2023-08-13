@@ -25,7 +25,7 @@ const Department = () => {
         </div>
         <div className="dept1-detail">
           <h2 className="dept-name">CIVIL ENGINEERING</h2>
-          <p className="dept-content">
+          <p className="dept-content ">
             {showFullDescription1 ? (
               <>
                 The Department of Civil Engineering started its journey in 1977.
@@ -42,6 +42,7 @@ const Department = () => {
                 human values, self confidence and independent thinking in
                 tackling diverse problems in the field of Civil Engineering so
                 that they can serve the country and the human society at large.
+                
                 <div className=" dept-contact">
                   <span> Dr. Arjun Sil</span>
                   <br />
@@ -49,6 +50,8 @@ const Department = () => {
                   <br />
                   <span>Email: hod@civil.nits.ac.in</span>
                 </div>
+
+
                 <button
                   className="read-more-button read-less-button"
                   onClick={toggleDescription1}
@@ -79,7 +82,11 @@ const Department = () => {
             )}
           </p>
         </div>
+
       </div>
+
+
+
 
       <div className="second-dept">
         <div className="dept2-detail">
