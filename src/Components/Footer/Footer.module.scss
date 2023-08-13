@@ -1,3 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400&family=Work+Sans:wght@300&display=swap');
+
 .footer{
     margin-top: 5vh;
+    background-color: #3D42B0;
+    height: 23rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  
 }
+.logo{
+    height: 15.61rem;
+    width:16.625rem;
+}
+.logoimage{
+    padding:3rem 0;
+    margin-left:3.875rem;
+}
+.contacts{
+    padding:3rem 0;
+    
+}
+.email{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    text-align: center;
+
+}
+.contact{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 1rem;
+}
+.id{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.socialmedia{
+    padding-top: 6rem;
+    margin-right: 4rem;
+
+}
+.icons{
+    font-size:3rem;
+    display:flex;
+    justify-content: space-evenly;
+}
+.link{
+    color:inherit;
+}
+
+@media only screen and (max-width: 1000px){
+    .footer{
+        height:20rem;
+    }
+    
+    
+    .logo{
+        height:12rem;
+        width:13rem;
+    }
+    .email{
+        font-size:1.2rem;
+    }
+    .contact{
+        font-size:1.2rem;
+    }
+    .id{
+        font-size:1rem;
+    }
+    .socialmedia{
+        padding-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .footer{
+        height:18rem;
+    }
+    
+    
+    .logo{
+        height:10rem;
+        width:11rem;
+    }
+    .email{
+        font-size:1.2rem;
+    }
+    .contact{
+        font-size:1.2rem;
+    }
+    .id{
+        font-size:1rem;
+    }
+    .icons{
+        font-size:2rem;
+    }
+    .socialmedia
+    {
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .footer{
+        height:16rem;
+    }
+    
+    
+    .logo{
+        height:9rem;
+        width:10rem;
+    }
+    .email{
+        font-size:.7rem;
+    }
+    .contact{
+        font-size:.7rem;
+    }
+    .id{
+        font-size:.6rem;
+    }
+    .icons{
+        font-size:1.8rem;
+    }
+    .socialmedia
+    {
+        padding-top:4rem;
+    }
+}
+@media only screen and (max-width: 530px){
+    .footer{
+        height:16rem;
+    }
+    
+    
+    .logo{
+        height:6rem;
+        width:7rem;
+    }
+    .email{
+        font-size:.6rem;
+    }
+    .contact{
+        font-size:.6rem;
+    }
+    .id{
+        font-size:.5rem;
+    }
+    .icons{
+        font-size:1.5rem;
+    }
+    .socialmedia
+    {
+        padding-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .footer{
+        height:12rem;
+    }
+    
+    
+    .logo{
+        height:4rem;
+        width:5rem;
+    }
+    .email{
+        font-size:.7rem;
+    }
+    .contact{
+        font-size:.7rem;
+    }
+    .id{
+        font-size:.4rem;
+    }
+    .icons{
+        font-size:1.3rem;
+    }
+    .socialmedia
+    {
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .footer{
+        height:12rem;
+    }
+    
+    .logoimage{
+        margin-left: 1rem;
+    }
+    .logo{
+        height:4rem;
+        width:5rem;
+        margin-left: 1rem;
+    }
+    .email{
+        font-size:.7rem;
+    }
+    .contact{
+        font-size:.7rem;
+    }
+    .id{
+        font-size:.4rem;
+    }
+    .icons{
+        font-size:1.3rem;
+    }
+    .socialmedia
+    {
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+        margin-right: 2rem;
+    }
+}
+@media only screen and (max-width: 375px){
+    .footer{
+        height:11rem;
+    }
+    
+    
+    .logoimg{
+        height:3rem;
+        width:4rem;
+        margin-left: 1rem;
+    }
+    .email{
+        font-size:.6rem;
+    }
+    .contact{
+        font-size:.6rem;
+    }
+    .id{
+        font-size:.3rem;
+    }
+    .icons{
+        font-size:1.2rem;
+    }
+    .socialmedia
+    {
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+        margin-right: 2rem;
+    }
+}
+

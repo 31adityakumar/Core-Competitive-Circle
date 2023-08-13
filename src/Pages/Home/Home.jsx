@@ -4,7 +4,7 @@ import './Home.module.scss'
 const Home = () => {
     return(
         <>
-            <Navbar/>
+            
             <Footer/>
         </>
     )
