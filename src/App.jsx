@@ -1,9 +1,10 @@
-import Home from './Pages/Home/Home'
-function App() {
+import React from 'react';
 
+import Department from "./Components/Department/Department"
+function App() {
   return (
     <>
-      <Home/>
+      <Department/>
     </>
   )
 }
