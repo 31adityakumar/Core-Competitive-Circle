@@ -50,7 +50,7 @@ const Department = () => {
                   <span>Email: hod@civil.nits.ac.in</span>
                 </div>
                 <button
-                  className="read-more-button"
+                  className="read-more-button read-less-button"
                   onClick={toggleDescription1}
                 >
                   Read less
@@ -116,7 +116,7 @@ const Department = () => {
                   <span>Email: hod@mech.nits.ac.in</span>
                 </div>
                 <button
-                  className="read-more-button"
+                  className="read-more-button  read-less-button"
                   onClick={toggleDescription2}
                 >
                   Read less
