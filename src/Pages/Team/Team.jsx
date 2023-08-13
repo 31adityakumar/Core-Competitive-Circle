@@ -1,10 +1,24 @@
-import './Team.module.scss'
+import style from "./Team.module.scss";
+import TeamTab from "../../Components/TeamTab/TeamTab";
 const Team = () => {
-    return(
-        <>
-           Team
-        </>
-    )
-}
+  return (
+    <div className={style.team}>
+      <h1>MEET OUR TEAM</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Malesuada mauris auctor nisl
+        pellentesque facilisis ornare euismod sit. Fermentum velit cras sed
+        Lorem ipsum dolor sit amet consectetur. Malesuada mauris auctor nisl
+        pellentesque facilisis ornare euismod sit. Fermentum velit cras sed
+        Lorem ipsum dolor sit amet consectetur. Malesuada mauris auctor nisl
+        pellentesque facilisis ornare euismod sit. Fermentum velit cras sed
+        Lorem ipsum dolor sit amet consectetur. Malesuada mauris auctor nisl
+        pellentesque facilisis ornare euismod sit. Fermentum velit cras sed
+        Lorem ipsum dolor sit amet consectetur. Malesuada mauris auctor nisl
+        pellentesque facilisis ornare euismod sit. Fermentum velit cras sed{" "}
+      </p>
+      <TeamTab />
+    </div>
+  );
+};
 
 export default Team;

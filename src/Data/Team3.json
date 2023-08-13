@@ -1,0 +1,70 @@
+[
+    [
+      {
+        "id": 1,
+        "name": "Keshav Pathak ",
+        "rank": "Website Head",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+        "fb": "https://www.facebook.com/jyotimoy.kashyap.33",
+        "linkedln": "https://www.linkedin.com/in/jyotimoykashyap",
+        "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      }
+    ],
+    [
+      {
+        "id": 2,
+        "name": "Keshav Pathak ",
+        "rank": "Web Developer",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+        "fb": "https://www.facebook.com/debojyoti.das.52206",
+        "linkedln": "https://www.linkedin.com/in/debojyotidas1915001/",
+        "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      },
+      {
+        "id": 3,
+        "name": "Keshav Pathak ",
+        "rank": "Web Developer",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+        "fb": "https://www.facebook.com/arko.kashyap?mibextid=ZbWKwL",
+        "linkedln": "https://www.linkedin.com/in/kashyaparka/",
+        "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      },
+      {
+        "id": 4,
+        "name": "Keshav Pathak ",
+        "rank": "UI Head",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+        "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
+        "git": ""
+      }
+    ],
+    [
+      {
+        "id": 2,
+        "name": "Keshav Pathak ",
+        "rank": "Web Developer",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+        "fb": "https://www.facebook.com/debojyoti.das.52206",
+        "linkedln": "https://www.linkedin.com/in/debojyotidas1915001/",
+        "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      },
+      {
+        "id": 3,
+        "name": "Keshav Pathak ",
+        "rank": "Web Developer",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+        "fb": "https://www.facebook.com/arko.kashyap?mibextid=ZbWKwL",
+        "linkedln": "https://www.linkedin.com/in/kashyaparka/",
+        "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      },
+      {
+        "id": 4,
+        "name": "Keshav Pathak ",
+        "rank": "UI Head",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+        "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
+        "git": ""
+      }
+    ]
+  ]
+  
