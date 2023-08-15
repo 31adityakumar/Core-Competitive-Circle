@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap");
 
 :root {
   --c4-font-1: "Poppins", sans-serif;
+  --c4-font-2: "Barlow Condensed";
 
   --c4-white-1-100: #FFFFFF;
   --c4-blue-1-100: #3D42B0;
   --c4-black-1-100: #2B2B2B;
   --c4-grey-1-100: #B4B4B4;
   --c4-header-blue-1-100: #00067F;
+  --c4-text-grey-1-100: #505050;
 }
 
 *{
