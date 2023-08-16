@@ -1,5 +1,4 @@
-//  import React from "react";
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Department.scss";
 
 const Department = () => {
@@ -42,7 +41,6 @@ const Department = () => {
                 human values, self confidence and independent thinking in
                 tackling diverse problems in the field of Civil Engineering so
                 that they can serve the country and the human society at large.
-                
                 <div className=" dept-contact">
                   <span> Dr. Arjun Sil</span>
                   <br />
@@ -50,8 +48,6 @@ const Department = () => {
                   <br />
                   <span>Email: hod@civil.nits.ac.in</span>
                 </div>
-
-
                 <button
                   className="read-more-button read-less-button"
                   onClick={toggleDescription1}
@@ -64,12 +60,12 @@ const Department = () => {
                 The Department of Civil Engineering started its journey in 1977.
                 Ever since the inception, it has been imparting quality
                 education to under graduate students. The Department presently
-                fosters five PG courses. There are about a dozen
-                laboratories with various research and testing facilities. The
-                faculty consists of eminent specialists from diverse fields and
-                there is commendable research ambience in the Department.The
-                vision of the Department of Civil Engineering is to achieve
-                unique identity by development of knowledge resources and highly
+                fosters five PG courses. There are about a dozen laboratories
+                with various research and testing facilities. The faculty
+                consists of eminent specialists from diverse fields and there is
+                commendable research ambience in the Department.The vision of
+                the Department of Civil Engineering is to achieve unique
+                identity by development of knowledge resources and highly
                 competent Civil Engineers in various fields of Civil Engineering
                 to meet local, national, and global economic and social needs.
                 <button
@@ -82,11 +78,7 @@ const Department = () => {
             )}
           </p>
         </div>
-
       </div>
-
-
-
 
       <div className="second-dept">
         <div className="dept2-detail">
@@ -132,9 +124,9 @@ const Department = () => {
             ) : (
               <>
                 The department was established in 1967 in the institute with the
-                academic activities starting on 2nd November 1977. From the very onset, the
-                main objective of the department is to strengthen the academic
-                and technical knowledge of the students through various
+                academic activities starting on 2nd November 1977. From the very
+                onset, the main objective of the department is to strengthen the
+                academic and technical knowledge of the students through various
                 world-class technologies, teaching-learning, and research
                 activities. Over these glorious years of its journey, the
                 department is keeping itself up to date with the latest
