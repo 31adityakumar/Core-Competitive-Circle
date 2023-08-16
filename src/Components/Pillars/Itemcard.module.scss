@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap");
+
+.Item {
+  /* Pillars of E-Cell */
+
+  /* Auto layout */
+  width: 32%;
+  margin : 5% 0.7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  border: 0.7px solid var(--c4-black-1-100);
+  border-radius: 2%;
+  padding: 3% 0;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.Item:hover {
+  transform: scale(1.01);
+  box-shadow: 8px 7px 18px var(--c4-grey-1-100);
+}
+
+.rectangle {
+  /* Rectangle 691 */
+  width: 80%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+
+  background: var(--c4-white-1-100);
+  border-radius: 12px;
+  border: 0.7px solid var(--c4-grey-1-100);
+  padding: 0 20px 20px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.description_pillars {
+  /* Content */
+  margin: 20px 0;
+  height: 330px;
+  font-family: var(--c4-font-2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* Text Color */
+
+  color: var(--c4-text-grey-1-100);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.name_conatiner {
+  width: 100%;
+}
+
+.name_pillars {
+  /* Content Bold */
+  text-align: center;
+  font-family: var(--c4-font-2);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+
+  display: block;
+
+  /* Dark Blue */
+
+  color: var(--c4-header-blue-1-100);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.designation_pillars {
+  text-align: center;
+  font-family: var(--c4-font-2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: block;
+
+  /* Medium Blue */
+
+  color: var(--c4-header-blue-1-100);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.ellipse img {
+    width: 176px;
+    height: 176px;
+    border : 0.5px solid #b2adad;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width : 1200px) {
+  .Item {
+    width: 48%;
+    margin: 5% 1%;
+  }
+
+  .description_pillars{
+    font-size: 22px;
+    height: 275px;
+  }
+}
+
+@media only screen and (max-width : 780px) {
+  .Item {
+    width: 80%;
+    margin : 5% 10%;
+  }
+
+  .description_pillars{
+    font-size:20px;
+    height: auto;
+  }
+  .name_pillars{
+    height: 80px;
+  }
+}
