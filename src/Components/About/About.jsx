@@ -62,7 +62,7 @@ const About = () => {
         <div className={styles.content}>
           <h2>ESTABLISHMENT OF THE CLUB</h2>
           <p>
-            His club was the brainchild of Keshav and Abhinav which finnay came
+            His club was the brainchild of Keshav which finnay came
             into existence in 2023. They were deeply influenced by an incident
             when an alumnus of nit silchar, who wanted to prepare for the core
             government sector in college time, but due to lack of resources,
