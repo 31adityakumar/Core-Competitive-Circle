@@ -62,9 +62,9 @@ const About = () => {
         <div className={styles.content}>
           <h2>ESTABLISHMENT OF THE CLUB</h2>
           <p>
-            His club was the brainchild of Keshav which finnay came
-            into existence in 2023. They were deeply influenced by an incident
-            when an alumnus of nit silchar, who wanted to prepare for the core
+            His club was the brainchild of Keshav which finnay came into
+            existence in 2023. They were deeply influenced by an incident when
+            an alumnus of nit silchar, who wanted to prepare for the core
             government sector in college time, but due to lack of resources,
             motivation, guidance, and friend circle, switched to IT Sector, in
             the last year of his graduation, he, however, got the job in a
@@ -73,16 +73,15 @@ const About = () => {
             nature of IT sector. He had to leave the job, and now he had nothing
             in hand. And these cases were increasing in our college, Especially
             for the core branch like Civil, Mechanical, and electrical
-            engineering. Ensuring that this would happen again, Keshav and
-            Abhinav, started to launch the club, with support from our respected
-            professor, and board of directors at Nit Silchar. We are committed
-            to keep up with the expectation of all the people who are connected
-            with us, who have helped this club to stand. We as the responsible
-            club of Nit Silchar, pledge to carry forward the legacy that our
-            senior has handled us. In fact, we always aspire to make people
-            understand what their real goals and ambitions are. And to make this
-            happen we will strive to take out the best from everyone connected
-            with us.
+            engineering. Ensuring that this would happen again, Keshav, started
+            to launch the club, with support from our respected professor, and
+            board of directors at Nit Silchar. We are committed to keep up with
+            the expectation of all the people who are connected with us, who
+            have helped this club to stand. We as the responsible club of Nit
+            Silchar, pledge to carry forward the legacy that our senior has
+            handled us. In fact, we always aspire to make people understand what
+            their real goals and ambitions are. And to make this happen we will
+            strive to take out the best from everyone connected with us.
           </p>
         </div>
       </section>

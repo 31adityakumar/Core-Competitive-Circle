@@ -6,7 +6,7 @@ const Hero = () => {
         <div className={styles.heroMain}>
           <h1 style={{ userSelect: "none" }}>CORE COMPETITIVE CIRCLE CLUB</h1>
           <h2 style={{ userSelect: "none" }}>
-            Society of Mechanical and Civil Department
+            Society of Core Departments.
           </h2>
         </div>
       </div>

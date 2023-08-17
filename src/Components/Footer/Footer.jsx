@@ -13,7 +13,6 @@ const Footer = () => {
           <p className={styles.id}> c4core.nits@gmail.com </p>
           <h2 className={styles.head}>Contact US</h2>
           <div className={styles.id}>Keshav Pathak - +91 7050703105</div>
-          <div className={styles.id}>Abhinav Kant - +91 7295043103</div>
         </div>
       </div>
       <div className={styles.socialmedia}>
