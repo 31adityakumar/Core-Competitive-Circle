@@ -46,7 +46,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive ? `${styles.navlinks} ${styles.active}` : styles.navlinks
             }
-            to="/"
+            to="/about"
           >
             ABOUT
           </NavLink>

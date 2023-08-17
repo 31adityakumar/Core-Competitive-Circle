@@ -81,6 +81,12 @@ const Department = () => {
       </div>
 
       <div className="second-dept">
+        <div className="dept-img ">
+          <img
+            src="https://res.cloudinary.com/dbp3cjyyy/image/upload/v1680705659/Background_sponsor_e4lhlv.webp"
+            alt=""
+          />
+        </div>
         <div className="dept2-detail">
           <h2 className="dept-name"> MECHANICAL ENGINEERING</h2>
           <p className="dept-content">
@@ -142,13 +148,6 @@ const Department = () => {
               </>
             )}
           </p>
-        </div>
-
-        <div className="dept-img ">
-          <img
-            src="https://res.cloudinary.com/dbp3cjyyy/image/upload/v1680705659/Background_sponsor_e4lhlv.webp"
-            alt=""
-          />
         </div>
       </div>
     </div>

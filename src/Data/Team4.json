@@ -48,15 +48,6 @@
         "fb": "https://www.facebook.com/profile.php?id=100037671608077",
         "linkedln": "https://www.linkedin.com/in/md-arshad-ahmed-2001",
         "git": ""
-      },
-      {
-        "id": 6,
-        "name": "Keshav Pathak ",
-        "rank": "Executive Head",
-        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
-        "fb": "https://www.facebook.com/robin.paul.562117",
-        "linkedln": "https://www.linkedin.com/in/robin-paul-820b2b217",
-        "git": ""
       }
     ],
     [
@@ -72,7 +63,7 @@
       {
         "id": 8,
         "name": "Keshav Pathak ",
-        "rank": "Marketing Head ",
+        "rank": "Management Head ",
         "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
         "fb": "https://www.facebook.com/profile.php?id=100008447206879&mibextid=ZbWKwL",
         "linkedln": "https://www.linkedin.com/in/saurav-h-das-19742b187/",
@@ -81,7 +72,7 @@
       {
         "id": 9,
         "name": "Keshav Pathak ",
-        "rank": "Marketing Head ",
+        "rank": "Academic Head ",
         "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
         "fb": "https://www.facebook.com/mrinmoi.borah.9?mibextid=ZbWKwL",
         "linkedln": "https://www.linkedin.com/in/mrinmoi-borah-3a1938153/",
