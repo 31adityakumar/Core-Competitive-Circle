@@ -7,6 +7,12 @@ const Footer = () => {
       <div className={styles.logoimage}>
         <img src={logo} alt="Logo" />
       </div>
+      <div className={styles.scan}>
+        <img
+          src="https://res.cloudinary.com/dnvhl9pru/image/upload/v1692379523/adityakr_31_tlhypt.svg"
+          alt="Logo"
+        />
+      </div>
       <div className={styles.contacts}>
         <div className={styles.info}>
           <h2 className={styles.head}>Email us @</h2>

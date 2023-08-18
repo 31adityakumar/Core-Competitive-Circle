@@ -16,7 +16,18 @@
   align-items: center;
   justify-content: center;
 }
+.scan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 0 0.5rem;
+}
 .logoimage img {
+  height: 18vh;
+  width: 18vh;
+}
+.scan img {
   height: 18vh;
   width: 18vh;
 }
@@ -74,6 +85,10 @@
     height: 12.5vh;
     width: 12.5vh;
   }
+  .scan img {
+    height: 12.5vh;
+    width: 12.5vh;
+  }
   .icons {
     font-size: 2rem;
   }
@@ -83,6 +98,10 @@
     font-size: 0.55rem;
   }
   .logoimage img {
+    height: 9vh;
+    width: 9vh;
+  }
+  .scan img {
     height: 9vh;
     width: 9vh;
   }
