@@ -3,66 +3,78 @@
     {
       "id": 1,
       "name": "Keshav Pathak ",
-      "rank": "Executive Head",
-      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
-      "fb": "https://www.facebook.com/jyotimoy.kashyap.33",
-      "linkedln": "https://www.linkedin.com/in/jyotimoykashyap",
-      "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      "rank": "Chief Coordinator",
+      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1692385052/IMG_20230819_001201_hnltvd.jpg",
+      "fb": "",
+      "linkedln": "https://www.linkedin.com/in/keshav-pathak-a8a092215",
+      "git": ""
     }
   ],
   [
     {
       "id": 2,
-      "name": "Keshav Pathak ",
+        "name": "Aditya Kumar ",
+        "rank": "Executive Head (Technical)",
+        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1681064509/proflie-picpng_2-removebg-preview_qeckz9.webp",
+        "fb": "https://www.facebook.com/profile.php?id=100071791456601",
+        "linkedln": "https://www.linkedin.com/in/adityakr31/",
+        "git": "https://github.com/31adityakumar"
+    }
+  ],
+  [
+    {
+      "id": 3,
+      "name": "Bipangshu Saha ",
       "rank": "Web Head",
-      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
-      "fb": "https://www.facebook.com/debojyoti.das.52206",
-      "linkedln": "https://www.linkedin.com/in/debojyotidas1915001/",
-      "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1692385688/Bipangshu_Saha_-_067_Bipangshu_Saha_bxuhfj.png",
+      "fb": "https://www.facebook.com/ronny.kumar.7186896",
+      "linkedln": "https://www.linkedin.com/in/bipangshu-saha-2aab9b228/",
+      "git": ""
     },
     {
       "id": 4,
-      "name": "Keshav Pathak ",
+      "name": "Vivek Kumar ",
+      "rank": "Content Head",
+      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1692384765/397eac27-8a79-468e-8b71-0977eee1b05a_-_EEB_096_Vivek_btwvaj.jpg",
+      "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
+      "git": ""
+    },
+    {
+      "id": 5,
+      "name": "Ipshita Diwedi ",
       "rank": "Design Head",
       "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
       "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
       "git": ""
-    },
-    {
-      "id": 4,
-      "name": "Keshav Pathak ",
-      "rank": "Content Head",
-      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
-      "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
-      "git": ""
-    },
-    {
-      "id": 4,
-      "name": "Keshav Pathak ",
-      "rank": "Outreach Head",
-      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
-      "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
-      "git": ""
     }
   ],
   [
     {
-      "id": 2,
-      "name": "Keshav Pathak ",
+      "id": 6,
+      "name": "Yuvraj Singh Dhakar ",
       "rank": "Web Developer",
-      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
-      "fb": "https://www.facebook.com/debojyoti.das.52206",
-      "linkedln": "https://www.linkedin.com/in/debojyotidas1915001/",
-      "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1692386578/WhatsApp_Image_2023-08-13_at_12.39.31_PM_-_ECE_067_Yuvraj_zszuyq.jpg",
+      "fb": "https://www.facebook.com/yuvraj.dhakar.90",
+      "linkedln": "http://linkedin.com/in/yuvraj-singh-dhakar-034b61223",
+      "git": ""
     },
     {
-      "id": 3,
-      "name": "Keshav Pathak ",
+      "id": 7,
+      "name": "Priyanshu Jayant ",
       "rank": "Web Developer",
       "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
       "fb": "https://www.facebook.com/arko.kashyap?mibextid=ZbWKwL",
       "linkedln": "https://www.linkedin.com/in/kashyaparka/",
-      "git": "https://github.com/31adityakumar/Core-Competitive-Circle"
+      "git": ""
+    },
+    {
+      "id": 8,
+      "name": "Arnab Kumar ",
+      "rank": "Web Developer",
+      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1691908598/Group_54_arxwxw.png",
+      "fb": "",
+      "linkedln": "",
+      "git": ""
     }
   ]
 ]
