@@ -6,7 +6,7 @@
   }
   
   .navbar {
-    background-color: var(--c4-blue-1-100);
+    background-color: rgb(92, 91, 91);
     @include flexDisplay(space-between, row);
     height: 4rem;
     position: sticky;
@@ -17,7 +17,7 @@
   }
   
   .expanded {
-    background-color: var(--c4-blue-1-100);
+    background-color: rgb(92, 91, 91);
   }
   
   .left {
@@ -86,7 +86,7 @@
   .toggleIcon {
     display: none;
     color: var(--c4-white-1-100);
-    background-color: var(--c4-blue-1-100);
+    background-color: rgb(92, 91, 91);
     border: none;
   }
   
