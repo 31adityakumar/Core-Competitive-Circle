@@ -1,14 +1,10 @@
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
-import Data from "../../Data/Team3.json";
+import Data from "../../Data/Senior.json";
 import style from "./TeamCard.module.scss";
 
 const TeamCard = () => {
   return Data.map((d) => (
     <div className={style.teamSection} key={d[0].id}>
-      {/* <h1 className={style.heading}>
-        {i === 0 ? "3rd Years" : "2nd Years"}
-        {i === 0 ? "4th Years" : i === 1 ? "3rd Years" : "2nd Years"}
-      </h1> */}
       {d.map((data) => (
         <div className={style.teamCard} key={data.id}>
           <div className={style.body}>

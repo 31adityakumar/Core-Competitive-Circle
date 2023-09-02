@@ -1,5 +1,6 @@
 import style from "./Team.module.scss";
 import TeamTab from "../../Components/TeamTab/TeamTab";
+import TeamCard from "../../Components/TeamCard/TeamCard2";
 const Team = () => {
   return (
     <div className={style.team}>
@@ -16,6 +17,7 @@ const Team = () => {
         Lorem ipsum dolor sit amet consectetur. Malesuada mauris auctor nisl
         pellentesque facilisis ornare euismod sit. Fermentum velit cras sed{" "}
       </p>
+      <TeamCard/>
       <TeamTab />
     </div>
   );

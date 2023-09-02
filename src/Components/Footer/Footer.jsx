@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
       <div className={styles.scan}>
         <img
-          src="https://res.cloudinary.com/dnvhl9pru/image/upload/v1692379523/adityakr_31_tlhypt.svg"
+          src="https://res.cloudinary.com/dnvhl9pru/image/upload/v1693633210/c4nits_vgpjsh.png"
           alt="Logo"
         />
       </div>
@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
           <a
             className={styles.link}
-            href="https://instagram.com/itsc4_nit_silchar?igshid=MzNlNGNkZWQ4Mg=="
+            href="https://www.instagram.com/c4_nits/"
           >
             <Icon icon="mdi:instagram" />
           </a>

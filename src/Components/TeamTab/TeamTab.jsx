@@ -30,7 +30,7 @@ const TeamTab = () => {
             setActive("Tech Team");
           }}
         >
-          Web Team
+          Technical Team
         </div>
       </div>
       <div className="cardContainer">

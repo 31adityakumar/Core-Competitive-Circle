@@ -1,28 +1,6 @@
 [
   [
     {
-      "id": 1,
-      "name": "Keshav Pathak ",
-      "rank": "Chief Coordinator",
-      "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1692385052/IMG_20230819_001201_hnltvd.jpg",
-      "fb": "",
-      "linkedln": "https://www.linkedin.com/in/keshav-pathak-a8a092215",
-      "git": ""
-    }
-  ],
-  [
-    {
-      "id": 2,
-        "name": "Aditya Kumar ",
-        "rank": "Executive Head (Technical)",
-        "image": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1681064509/proflie-picpng_2-removebg-preview_qeckz9.webp",
-        "fb": "https://www.facebook.com/profile.php?id=100071791456601",
-        "linkedln": "https://www.linkedin.com/in/adityakr31/",
-        "git": "https://github.com/31adityakumar"
-    }
-  ],
-  [
-    {
       "id": 3,
       "name": "Bipangshu Saha ",
       "rank": "Web Head",

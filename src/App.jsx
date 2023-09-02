@@ -12,7 +12,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} key="route-home-screen" />
           <Route exact path="/team" element={<Team />} />
-          <Route exact path="/about" element={<About />} />
+          <Route path="/about" Component={About} />
+          {/* <Route exact path="/about" element={<About />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>

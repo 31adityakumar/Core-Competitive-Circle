@@ -3,7 +3,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
-    background-image: url("https://res.cloudinary.com/dnvhl9pru/image/upload/v1692299752/banner_afgxru.png");
+    background-image: url("https://res.cloudinary.com/dnvhl9pru/image/upload/v1693633831/Minimal_Modern_You_Are_Enough_Quote_Desktop_Wallpaper_1_xa6lyv.png");
     height: 100vh;
     width: 100%;
     align-self: center;
@@ -22,19 +22,20 @@
 .heroMain{
     position: absolute;
     top: 35%;
-    left: 10%;
+    left: auto;
+    text-align: center;
 }
-
 .heroMain h1{
     font-family: 'League Gothic', sans-serif;
-    font-size: 3rem;
+    font-size: 5vw;
+    font-weight: 800;
     letter-spacing: 5px;
     padding-bottom: 0.8rem;
 }
 
 .heroMain h2{
     font-family: 'Rubik', sans-serif;
-    font-size: 1.3rem;
+    font-size: 2vw;
     font-weight: 900;
     letter-spacing: .7px;
 }
@@ -43,66 +44,12 @@
     .heroMain{
         position: absolute;
         top: 20% !important;
-        left: 10%;
+        left: auto;
+        text-align: center;
     }
 
     .heroMain h1{
-        font-size: 8rem !important;
+        font-size: 20vw !important;
     }
     
-    .heroMain h2{
-        display: none;
-    }
- }
-
- @media only screen and (max-height:265px){
-    .heroMain h1{
-        font-size: 5rem !important;
-    }
- }
-
- @media only screen and (max-width:1200px) and (min-width:992px){
-     .heroMain{
-         left: 3%;
-     }
- }
- 
- @media only screen and (max-width:1100px) and (min-width:662px){
-     .heroMain{
-         left: 5%;
-     }
- 
-     .heroMain h1{
-        font-size: 5vw;
-     }
-
-     .heroMain h2{
-            font-size: 3vw;
-     }
-}
-@media only screen and (max-width:660px){
-    .hero-top{
-        background-attachment: scroll;
-     }
-     
-     .heroMain{
-         top: 29%;
-         left: 5%;
-     }
- 
-     .heroMain h1{
-         font-size: 2rem;
-     }
- 
-     .heroMain h2{
-         font-size: 1.1rem;
-         padding-right: 1rem;
-     }
- 
- }
- 
- @media only screen and (max-width:320px){
-     .heroMain h1{
-         font-size: 6rem;
-     }
  }
